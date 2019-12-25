@@ -1,2 +1,0 @@
-# InstaSub
-Subscription management application
