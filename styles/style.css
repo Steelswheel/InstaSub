@@ -83,7 +83,6 @@ a:visited {
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   justify-content: center;
-  height: 456px;
 }
 
 .total-info-text {
