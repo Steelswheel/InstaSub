@@ -39,6 +39,10 @@ a {
   color: black;
 }
 
+a:visited {
+  color: #c2c2c2;
+}
+
 .origin-info {
   display: grid;
   grid-template-areas: "origin-text"
