@@ -7,17 +7,30 @@
     <title>InstaSub Service</title>
   </head>
   <body>
-    <div class="origin-info">
-      <div class="text-wrapper">
-        <textarea class="origin-info-text-from" name="origin-info-text-from" cols="50" rows="30" placeholder="Ваши подписки"></textarea>
-        <textarea class="origin-info-text-to"name="origin-info-text-to" cols="50" rows="30" placeholder="Ваши подписчики"></textarea>
+    <section class="subscribes">
+        <div class="text">
+          <textarea class="subscribes_my-list" placeholder="Ваши подписки"></textarea>
+          <textarea class="subscribes_subscribers-list" placeholder="Ваши подписчики"></textarea>
+          <div class="subscribes_total"></div>
+        </div> 
+        <div class="buttons">
+            <button class="subscribes_submit">Проверить</button>
+            <button class="subscribes_clear">Очистить</button> 
+        </div>       
+    </section>
+    <section class="likers">
+      <div class="text">
+        <textarea class="likers_list" placeholder="Список лайкнувших"></textarea>
+        <textarea class="likers_subscribers-list" placeholder="Ваши подписчики"></textarea>
+        <div class="likers_total"></div>
       </div>
-      <button class="submit">Ввести информацию</button>
-    </div>
-    <div class="total-info">
-      <div class="total-info-text"></div>
-      <button class="clear">Очистить поле</button>
-    </div>
-    <script src="scripts/script.js"></script>
+      <div class="buttons">
+        <button class="likers_submit">Проверить</button>
+        <button class="likers_clear">Очистить</button>
+      </div>
+    </section>
+    
+    <script src="scripts/subscribe.js"></script>
+    <script src="scripts/likers.js"></script>
   </body>
 </html>
