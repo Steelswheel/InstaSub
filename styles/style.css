@@ -86,11 +86,7 @@ a:visited {
   min-height: 80%;
 }
 
-.subscribes_total {
-  min-width: 30%;
-}
-
-.likers_total, .likers_subscribers-list, .likers_list {
+.subscribes_total, .subscribes_my-list, subscribes_subscribers-list, .likers_total, .likers_subscribers-list, .likers_list {
   min-width: 30%;
   max-width: 31%;
 }
